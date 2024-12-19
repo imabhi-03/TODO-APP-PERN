@@ -6,7 +6,7 @@ const db=new pg.Client(
       host:"localhost",
       database:"pernstack",
       password:"postgres@37",
-      post:5432,
+      port:5432,
     }
   );
   db.connect();
